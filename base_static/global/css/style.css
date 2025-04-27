@@ -1,0 +1,113 @@
+body{
+    background-color:  #f0f3f3;
+}
+
+#topo{
+    width :100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #f0f3f3;
+    position: fixed;
+    top:0;
+    display: flex;
+    margin: fixed;
+}
+
+.logo{
+    width:35%;
+    height: 90px;
+    background-color: #f0f3f3;
+    float: left;
+    overflow: hidden;
+    margin: fixed;
+    }
+
+.logo img{
+    width: 20%;
+    height: auto;
+}
+
+.menu{
+    background-color: #2c3e50;
+    width: 40%;
+    height: 60px;
+    float:left;
+    margin: fixed;
+}
+
+.menu-navegacao{
+    color: antiquewhite;
+    width: 85%;
+    height: 55px;
+    margin:auto;
+    display: flex;  /*coloca a lista na horizontal*/
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px 10px 10px 10px;
+}
+
+.menu-navegacao a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.menu-navegacao li:hover{
+    background-color: red;
+}
+
+/*AQUI É A PARTE DO LOGIN */
+.login{
+    width: 15%;
+    height: 30px;
+}
+
+.login-botao{
+    width: 50%;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    border-radius:16px;
+    float: right;
+}
+/*AQUI É O FIM DA PARTE DO LOGIN */
+
+
+/*AQUI É A PARTE DO FOOTER*/
+.rodape{
+    background-color: #2c3e50;
+    color: bisque;
+    width: 97%;
+    height: 250px;
+    padding:  20px 20px 20px 20px;
+}
+
+.menu-rodape li,a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    color: bisque;
+    text-align: right;
+}
+
+.menu-descricao{
+    font-size: 14px;
+    text-align: left;
+}
+
+.menu-social{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    color: bisque;
+    text-align: center;
+}
+
+.menu-infos {
+    font-size: 14px;
+    text-align:center;
+}
+
+
