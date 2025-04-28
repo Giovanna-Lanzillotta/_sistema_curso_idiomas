@@ -2,7 +2,7 @@
     <div class="responsive-table">
         <table class="alunos-table">
             <caption class="table-caption">
-                Listagem de Alunos
+                Listagem de Funcionários
             </caption>
             <thead>
                 <tr class="table-row table-row-header" >
@@ -12,20 +12,20 @@
                     <th class="table-header">Email</th>
                     <th class="table-header">Telefone</th>
                     <th class="table-header">ativo</th>
-                    <th class="table-header">Idioma</th>
+                    <th class="table-header">cargo</th>
 
                 </tr>
             </thead>
             <tbody>
-                {% for aluno in alunos  %}
+                {% for funcionario in funcionarios  %}
                     <tr class="table-row">
-                        <td class="table-cel">{{aluno.id}}</td>
-                        <td class="table-cel"> {{aluno.nome}}</td>
-                        <td class="table-cel"> {{aluno.sobrenome}}</td>
-                        <td class="table-cel"> {{aluno.email}}</td>
-                        <td class="table-cel"> {{aluno.telefone}}</td>
-                        <td class="table-cel"> {{aluno.ativo}}</td>
-                        <td class="table-cel"> {{aluno.id_idioma}}</td>
+                        <td class="table-cel">{{funcionario.id}}</td>
+                        <td class="table-cel"> {{funcionario.nome}}</td>
+                        <td class="table-cel"> {{funcionario.sobrenome}}</td>
+                        <td class="table-cel"> {{funcionario.email}}</td>
+                        <td class="table-cel"> {{funcionario.telefone}}</td>
+                        <td class="table-cel"> {{funcionario.ativo}}</td>
+                        <td class="table-cel"> {{funcionario.cargo}}</td>
                         </tr>
                 {% endfor %}
             </tbody>

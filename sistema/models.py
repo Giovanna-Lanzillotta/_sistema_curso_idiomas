@@ -14,8 +14,9 @@ class Funcionario(models.Model):
         return f'{self.nome} {self.sobrenome}'
     
 
+# nivel,descrição,carga,horária
 
-    #Aqui fica o Model do idioma    
+#Aqui fica o Model do idioma    
 class Idioma(models.Model):
     nome = models.CharField(max_length=20)
     unidade = models.CharField(max_length=20)
